@@ -42,3 +42,70 @@ button:hover {
   z-index: -1;
   background: radial-gradient(circle at center, #2b0040, #0a0014);
 }
+
+.ficha-container {
+  background: linear-gradient(145deg, #1a002b, #2b0045);
+  border: 2px solid #7a00ff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 40px #6a00ff;
+  animation: flutuar 6s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.ficha-container h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #d9b3ff;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo input, .campo textarea {
+  width: 100%;
+  background: #12001f;
+  border: 1px solid #7a00ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.status-grandes {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.status {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 15px;
+  transform: perspective(600px) rotateX(10deg);
+}
+
+.vida { background: #3b0015; }
+.mana { background: #1a003b; }
+.sanidade { background: #002b2b; }
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  background: #7a00ff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #a366ff;
+}
