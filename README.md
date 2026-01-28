@@ -1,0 +1,2 @@
+# Stratgame
+Em andamento
