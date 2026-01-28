@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #4c1d95, #12001f);
+  color: #eee;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  text-shadow: 0 0 15px #a855f7;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background: #7c3aed;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 15px #7c3aed;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#resultado, #status {
+  margin: 20px;
+  padding: 15px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 14px;
+  box-shadow: 0 0 15px #7c3aed;
+}
